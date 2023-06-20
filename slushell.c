@@ -1,3 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <signal.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+
+
 int inputValid(char* input){
     int i=0;
     while(input[i]!='\n'){
