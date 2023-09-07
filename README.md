@@ -15,9 +15,9 @@ SluShell is a unique shell program implemented in C. What sets it apart is its "
 
 Compile `slushell.c` using:
 
-\`\`\`bash
+```bash
 gcc -o slushell slushell.c
-\`\`\`
+```
 
 ## Running the Program
 
