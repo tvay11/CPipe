@@ -23,9 +23,9 @@ gcc -o slushell slushell.c
 
 After compilation, you can run SluShell using:
 
-\`\`\`bash
+```bash
 ./slushell
-\`\`\`
+```
 
 You'll then be presented with the `INPUT:` prompt, where you can start entering commands.
 
@@ -35,25 +35,25 @@ You'll then be presented with the `INPUT:` prompt, where you can start entering 
 
 At the `INPUT:` prompt, enter standard shell commands:
 
-\`\`\`bash
+```bash
 INPUT: ls
-\`\`\`
+```
 
 ### Directory Navigation
 
 You can use `cd` to change directories:
 
-\`\`\`bash
+```bash
 INPUT: cd Documents
-\`\`\`
+```
 
 ### Using the Backward Syntax for Piping
 
 SluShell allows backward syntax for piped commands:
 
-\`\`\`bash
+```bash
 INPUT: more ( sort ( ps aux
-\`\`\`
+```
 
 ## Known Limitations and Issues
 
